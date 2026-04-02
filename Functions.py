@@ -1,15 +1,11 @@
-print("y-axis")
-print("^")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|")
-print("|___________________________________________>","x-axis ")
-print("   1  2  3  4  5  6  7  8  9  10  11  12  13>")
-print("0,0")
+
+list_1 = ["Lahore","Karachi","Islamabad","Peshawar","Quetta","Hyderabad","Multan","Rawalpindi"]
+
+def len_lis(l):
+    print(f"The length of the list is {len(l)}")
+
+
+
+
+
+len_lis(list_1)    
