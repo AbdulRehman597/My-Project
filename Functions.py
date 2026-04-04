@@ -1,13 +1,13 @@
-
-list_1 = ["Lahore","Karachi","Islamabad","Peshawar","Quetta","Hyderabad","Multan","Rawalpindi"]
-heroes = ["Superman","Batman","Spiderman","Ironman","Hulk","Thor","Captain America","Flash  "]
-
-def len_lis(l):
-    print(f"The length of the list is {len(l)}")
+n = 5 
 
 
+def cal_fact(a):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i 
+    print(fact)
+        
 
 
 
-len_lis(list_1)    
-len_lis(heroes)     
+cal_fact(n)    
